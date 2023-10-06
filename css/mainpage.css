@@ -1,0 +1,255 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Kumbh Sans", sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: whitesmoke;
+	font-family: system-ui;
+  background-image: url('/img/bgi.jpg');
+}
+.clearfix{ 
+	clear: both;
+}
+
+#main{
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+	margin: auto;
+}
+.head{
+	padding: 20px;
+  display: flex;
+}
+
+
+.title_style{
+    padding: 0 0 0 60px;
+    margin: auto;
+    background: #659999;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #464646, #ffffff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1282fa, #00fff2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text; /* Chrome and Safari Compatibility */
+    background-clip: text; /* Mozilla Firefox Compatibility */
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+    font-size: 42px;
+}
+
+.chart{
+  width: 80%;
+  height: 350px;
+  display: block;
+}
+
+.numbers{
+  color: rgb(0, 0, 0);
+  margin: 0;
+  padding: 0;
+  width: 50px;
+  height: 100%;
+  float: left;
+}
+
+.numbers li{
+  list-style: none;
+  height: 150px;
+  position: relative;
+  bottom: 145px;
+  margin-left: -15px;
+}
+
+.numbers span{
+  font-size: 12px;
+  font-weight: 600;
+  position: relative;
+  bottom: -130px;
+  right: 10px;
+}
+
+.bars{
+  color: rgb(0, 0, 0);
+  font-size: 12px;
+  font-weight: 600;
+  background: rgb(255, 255, 255);
+  margin-left: 13%;
+  display: block;
+  width: 100%;
+  height: 300px;
+  box-shadow: 0 5px 10px #e1e5ee;
+  border-radius: 5px;
+}
+
+.bars li{
+  display: table-cell;
+  width: 100px;
+  height: 300px;
+  position: relative;
+}
+
+.bars span{
+  width: 100%;
+  position: absolute;
+  bottom: -30px;
+  text-align: center;
+}
+
+.bars .bar{
+  display: block;
+  background:#87CEEB;
+  width: 50px;
+  position: absolute;
+  bottom: 0;
+  margin-left: 25px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.bars .bar:hover{
+  background: #555;
+  box-shadow: 0 0 10px 0 rgba(85, 239, 196, 0.5);
+  cursor: pointer;
+}
+
+.bars .bar:before{
+  color: rgb(0, 0, 0);
+  content: attr(data-percentage) '%';
+  position: relative;
+  bottom: 20px;
+}
+
+.col-div-3{
+	width: 31.5%;
+	float: left;
+  margin-left: 30px;
+  margin-top: 50px;
+}
+
+.small-box-containe {
+    margin: 0 auto;
+    margin-right: 30px;
+}
+
+.box{
+	width: 90%;
+	height: 120px;
+	background-color: #ffffff;
+  box-shadow: 0 5px 10px #e1e5ee;
+	margin-left: 20px;
+	padding: 7px 10px 0px; 
+  border-radius: 20px;
+  cursor: pointer;
+}
+.box p{
+	font-size: 35px;
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+	line-height: 30px;
+	padding-left: 10px;
+	margin-top: 20px;
+	display: inline-block;
+}
+.box p span{
+	font-size: 20px;
+	font-weight: 400;
+	color: #818181;
+}
+.box-icon{
+	font-size:40px!important;
+	float: right;
+	margin-top: 35px!important;
+	color: #818181;
+	padding-right: 10px;
+}
+.col-div-8{
+	width: 45%;
+	float: left;
+  margin-left: 90px;
+}
+.col-div-4{
+	width: 45%;
+	float: left;
+}
+.content-box{
+	padding: 20px;
+}
+.content-box p{
+	margin: 0px;
+	font-size: 20px;
+	color: #f7403b;
+}
+.content-box p span{
+	float: right;
+	background-color: #e8e5e1;
+    border-radius: 4px;
+	padding: 3px 10px;
+	font-size: 15px;
+}
+
+.box-8, .box-4{
+	width: 96.5%;
+	background-color: #ffffff;
+  box-shadow: 0 5px 10px #e1e5ee;
+	height: 330px;
+  margin-bottom: 100px;
+  border-radius: 20px;
+}
+.box-8{
+	margin-left: 10px;
+	width: 95%;
+}
+
+.proname {
+  color:black;
+  font-family: Tahoma, Verdana, sans-serif;
+  font-size: 20px;
+  margin-left: 300px;
+  margin-top: 130px;
+}
+
+.head {
+  margin-bottom: 15px;
+}
+
+.dropbtn {
+  background-color: whitesmoke;
+  border-radius: 100%;
+  color: white;
+  margin-right:50px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  }
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 10%;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-radius: 10%;
+}
+
+.dropdown-content a:hover {background-color: #3ea0ce; color: #000000;font-weight: bold;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropbtn:hover {color:black ;}

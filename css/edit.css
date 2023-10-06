@@ -1,0 +1,138 @@
+
+/* Style button element */
+button {
+    border: none;
+    padding: 12px 24px;
+    border-radius: 50px;
+    border-color: gray;
+    font-weight: 600;
+    color: var(--black);
+    background-color: #e0efff;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+
+    /* Button is inline-block element by default, it need to have block display for margin: 0 auto; to work */
+    margin: 0 auto;
+    display: block;
+
+    /* Button is a clickable element, therefore it should have a pointer cursor */
+    cursor: pointer;
+    /* box-shadow: var(--box-shadow); */
+    /* border: 1px solid lightgrey; */
+    /* border-radius: 2px; */
+}
+
+.box_desc {
+    /* Adding space around the details  */
+    padding: 8px;
+}
+
+button:focus, button:hover {
+    background-color: var(--green);
+    color: #e0efff;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+
+/* ============================================================================
+User Profile Page
+============================================================================ */
+.profile {
+    background-color: whitesmoke;
+    /* margin-top: 5em; */
+    height: 1000px;
+    /* margin-left: 100px; */
+    /* width: 1000px; */
+}
+
+.profile .profile-details {
+    margin-top: 100px;
+}
+
+.profile hr {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    /* width: 100%; */
+}
+
+.profile-details h2 {
+    font-size: 50px;
+    color: black;
+}
+
+.profile-details > p, .profile-details > div {
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+    /* margin: 40px 0; */
+    /* padding: 25px; */
+    background-color: #fff;
+    /* width: 60%; */
+    /* margin-left: 400px; */
+}
+
+.profile-details p table td:first-child, .profile-details div table td:first-child {
+    font-weight: bold;
+    color: var(--black);
+    padding-right: 20px;
+}
+
+.profile-details p {
+    font-weight: bold;
+    font-size: 35px;
+    color: var(--black);
+    margin-bottom: 30px;
+}
+
+.profile-details table td {
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.profile-details input {
+    box-shadow: var(--box-shadow);
+    border: 1px solid lightgrey;
+    border-radius: 20px;
+    /* width: 500px; */
+    height: 60px;
+    padding: 5px;
+}
+
+.profile-details textarea {
+    box-shadow: var(--box-shadow);
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+}
+
+
+.editbox{
+        margin-left: auto;
+        margin-right: auto;
+        transform: translate(50%,50%);
+
+
+}
+
+/* ============================================================================
+Edit Button Section
+============================================================================ */
+.modify-btn .profile-btn {
+    position: relative;
+    display: block;
+    font-size: 30px;
+    padding: 15px;
+    background-color: gray;
+    box-shadow: var(--box-shadow);
+    border-radius: 5px;
+    text-decoration: none;
+    border-color: gray;
+    color: var(--black);
+    width: 1020px;
+    color: gray;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+
+#edit:hover {
+    /* background-color: darkslateblue; */
+    color: white;
+}

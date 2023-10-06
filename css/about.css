@@ -1,0 +1,70 @@
+
+
+
+.Pic1  {
+    margin-top: 5%;
+   margin-left: 10%;
+  }
+.script1{
+   float: right;
+   margin-top: -20%;
+   padding-right: 10%;
+
+}
+.pic2{
+    margin-right: 6%;
+    margin-top: -20%;    
+    float: right;
+   }
+
+.script2{
+     margin-left: 6%;
+     padding-left: 5%;
+     padding-top: 15%;
+     
+ }
+ .pic3{
+     margin-top: 5% ;
+     margin-left: 10%
+ }
+ .script3{
+     float: right;
+     margin-top: -20%;
+     padding-right: 5%;
+ }
+ 
+ .pic4{
+    margin-right: 6%;
+    margin-top: -20%;    
+    float: right;
+   }
+
+.script4{
+     margin-left: 6%;
+     padding-left: 5%;
+     padding-top: 15%;
+     
+ }
+ 
+
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    word-wrap: break-word;
+}
+
+p{
+    font-size: 20px;
+    font-style: italic;
+}
+#text1{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+
+

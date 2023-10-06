@@ -1,0 +1,165 @@
+* {
+    font-family: 'Poppings', sans-serif;
+}
+
+body {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    margin-top: 150px;
+    margin-bottom: 100px;
+    width: 1000px;
+    height: auto;
+    background: #fff;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+.title {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    background-color: whitesmoke;
+    position: absolute;
+    background: linear-gradient(to right, #1282fa, #00fff2);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+}
+
+.backbut {
+    margin-top: 50px;
+    right: 100px;
+    position: absolute;
+    height: 70px;
+    width: 270px;
+    border: none;
+    background-color: #e1e8e8;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    outline: none;
+    cursor: pointer;
+    line-height: 72px;
+    text-align: center;
+    text-decoration: none;
+    color: #222;
+    transition: 1s;
+}
+
+.backbut:hover {
+    margin-top: 55px;
+    right: 100px;
+    position: absolute;
+    height: 70px;
+    width: 270px;
+    border: none;
+    background-color: #aadad7;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    outline: none;
+    cursor: pointer;
+    line-height: 72px;
+    text-align: center;
+    text-decoration: none;
+    color: #222;
+}
+
+.bottomcontainer {
+    height: auto;
+    width: 1000px;
+    display: flex;
+}
+
+.leftcontainer {
+    width: 50%;
+    height: auto;
+}
+
+.rightcontainer {
+    width: 50%;
+    height: auto;
+}
+
+label {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 100px;
+    color: #222;
+}
+
+.producttype {
+    height: 28px;
+    width: 150px;
+    margin-top: 55px;
+    margin-left: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 13px;
+}
+
+.line {
+    height: 1px;
+    width: 100%;
+    background: #999;
+    margin-top: 50px;
+}
+
+.inputbox {
+    height: 5px;
+    width: 200px;
+    margin-left: 100px;
+    margin-top: 5px;
+    font-size: 16px;
+    padding: 13px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.imagebox {
+    font-size: 16px;
+    color: #222;
+    margin-left: 100px;
+    margin-top: 5px;
+    margin-bottom: 11px;
+}
+
+.imagebox:hover {
+    cursor: pointer;
+}
+
+.submit-btn {
+    height: 60px;
+    width: 135px;
+    margin-left: 240px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #222;
+    background-color: #e1e8e8;
+    cursor: pointer;
+    transition: 1s;
+    letter-spacing: 1px;
+    border: none;
+}
+
+.submit-btn:hover {
+    height: 60px;
+    width: 135px;
+    margin-left: 240px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #222;
+    background-color: #aadad7;
+    cursor: pointer;
+    transform: scale(1.1);
+}
